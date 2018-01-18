@@ -7,13 +7,13 @@ $NewMessage->execute(array(
 	'Message'=> ($_POST['MessageContent'])
 	));
 	
-if (!isset($_POST['PseudoNames'])) AND (!isset($_POST['MessageContent']))
+if (!isset($_POST['PseudoNames']))
 	{
-		echo "Veuillez remplir les deux champs pour rejoindre le miaou"
+		echo "Veuillez remplir le champ pseudo pour rejoindre le miaou";
 	}
 else
 {
-	echo "Miaou! "
+	echo "Miaou! ";
 }
 
 header('Location: minichat.php')
