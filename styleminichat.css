@@ -1,0 +1,57 @@
+
+
+header
+{
+	background-color: black;
+	
+}
+body
+{
+	background-color: black;
+}
+
+section
+{
+	background-color: black;
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #E3D1BD;
+
+}
+
+.Suivre
+{
+	background-color: black;
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #E3D1BD;
+	height: 100px;
+	margin-bottom: 10px;	
+}
+
+
+h1, p, label, legend, fieldset
+{
+	color: #E3D1BD;
+	font-family: Arial;
+}
+
+#MessageContent
+{
+	height:50px;
+	width: 300px;
+	margin: 20px;
+
+}
+
+.titreprincipal
+{
+	float: right;
+	padding: 30px;
+	padding-right: 300px;
+}
+.ImageChat
+{
+	margin-left: 20px;
+	border-radius: 8px;
+}
