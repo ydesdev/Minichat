@@ -11,7 +11,7 @@ if (!empty($_POST['PseudoName']) && !empty($_POST['MessageContent'])) {
 }	else {
 
 	if(isset($_POST['PseudoName'])){
-     $error =  "Veuillez entrer un pseudo et un message";
+     $error =  "Veuillez entrer un message";
 	}
 }	
 
